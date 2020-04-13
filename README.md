@@ -47,5 +47,31 @@ added an ssh-key
 guess i should push this huh
 
 ## ++
-in pushing, default editor was nano (yuk!)
-ran these two, one of them had to work `select-editor` `sudo update-alternatives --config editor`
+in pushing, default editor was nano (yuk!) ran these two, one of them had to work 
+
+-	`select-editor`
+-	`sudo update-alternatives --config editor`
+
+## ++
+-	installed `tmux`
+-	`raspi-config` set wifi country code `4 4`
+
+## things i need todo
+
+- [x] `sudo apt install awesome awesome-extra`
+- [ ] .vimrc
+- [ ] .vim/
+- [ ] .tmux.conf
+- [ ] .zshrc
+- [ ] esc/caps
+- [ ] ctrl/alt
+- [ ] i3 mod1 => mod4
+
+dont think im going to change the pi username, seems like theres alot of bugs associated with it
+
+-	https://thepihut.com/blogs/raspberry-pi-tutorials/how-to-change-the-default-account-username-and-password
+-	https://www.raspberrypi.org/forums/viewtopic.php?t=233034
+-	https://www.raspberrypi.org/forums/viewtopic.php?f=63&t=227620#p1396338
+-	https://raspberrypi.stackexchange.com/questions/12827/change-default-username
+-	http://unixetc.co.uk/2016/01/07/how-to-rename-the-default-raspberry-pi-user/
+
