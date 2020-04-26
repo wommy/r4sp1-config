@@ -8,9 +8,10 @@ some notes to have an easier time
 - [ ] .vim/
 - [ ] .tmux.conf
 - [ ] .zshrc
-- [ ] esc/caps
-- [ ] ctrl/alt
-- [ ] i3 mod1 => mod4
+- [ ] chrome f-keys
+	audio vol +/- | mute | play/pause
+	refresh | back/foward
+	dimmer / brighter
 
 ## installation
 
@@ -28,14 +29,25 @@ some notes to have an easier time
 		select-editor
 		update-alternatives --config editor
 	i3
-		remove lightdm raspberrypi-ui-mods && add lightdm raspberrypi-ui-mods
+		sudo remove lightdm raspberrypi-ui-mods && sudo add lightdm raspberrypi-ui-mods
 			# ? reset daemon
 		vim ~/.config/i3/config
+			$mod = mod4
+			-fn Monospace-18
 			font-size: 16
 			bar [ top ]
 	stterm
 		update-alternatives --config x-terminal-emulator
 	tmux
+	mpv
+		sudo curl -L https://yt-dl.org/downloads/latest/youtube-dl -o /usr/local/bin/youtube-dl
+		sudo chmod a+rx /usr/local/bin/youtube-dl
+	.xmodmap
+		esc/caps
+			https://vim.fandom.com/wiki/Map_caps_lock_to_escape_in_XWindows
+		ctrl/alt
+			http://xahlee.info/linux/linux_swap_control_and_alt_xmodmap.html
+	software-properties-common
 
 ### ssh-key
 	ssh-keygen -t rsa -b 4096 -C "tom@technomad.media"
@@ -66,4 +78,5 @@ some notes to have an easier time
     https://www.raspberrypi.org/forums/viewtopic.php?f=63&t=227620#p1396338
 
     https://raspberrypi.stackexchange.com/questions/12827/change-default-username
+
 
