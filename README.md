@@ -79,4 +79,3 @@ some notes to have an easier time
 
     https://raspberrypi.stackexchange.com/questions/12827/change-default-username
 
-
