@@ -12,6 +12,7 @@ some notes to have an easier time
 	audio vol +/- | mute | play/pause
 	refresh | back/foward
 	dimmer / brighter
+- [x] ./startup.sh
 
 ## installation
 
@@ -55,12 +56,13 @@ some notes to have an easier time
 	ssh-add ~/.ssh/id_rs`
 	ssh -T git@github.com
 
-### optional
+### optional - sudo apt install
 	firefox-esr
 	* looking foward to their dev tools
 	awesome awesome-extra
 	* looking forward to playing with
 	* might be more simple than i3
+	vifm
 
 
 ## maybe-later?
