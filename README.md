@@ -13,6 +13,9 @@ some notes to have an easier time
 	refresh | back/foward
 	dimmer / brighter
 - [x] ./startup.sh
+- [x] yarn
+	https://classic.yarnpkg.com/en/docs/install/#debian-stable
+- [x] xscreensaver
 
 ## installation
 
